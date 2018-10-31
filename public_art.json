@@ -91,7 +91,7 @@
       "phoneNumber": {
         "type": "string",
         "pattern": "^(\\([0-9]{3}\\))?[0-9]{3}-[0-9]{4}$",
-        "example": 123-456-7891
+        "example": "555-1212"
       },
       "images": {
         "type": "array",
@@ -141,7 +141,7 @@
       "type": {
         "type": "String",
         "example": "Point",
-        "description": "This indicates that the station is geologically a Point.It can be Point, LineString, MultiLineString"
+        "description": "This indicates that the station is geologically a Point. It can be Point, LineString, MultiLineString"
       },
       "coordinates": {
         "items": {
