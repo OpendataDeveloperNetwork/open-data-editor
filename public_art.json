@@ -62,13 +62,18 @@
       "location": {
         "type": "object",
         "properties": {
-          "streetAddress": {
-            "type": "string",
-            "example": "123 West Rd"
-          },
-          "unit": {
-            "type": "string",
-            "example": "Unit 500"
+          "address": {
+            "type": "object",
+            "properties": {
+              "streetAddress": {
+                "type": "string",
+                "example": "123 West Rd"
+              },
+              "unit": {
+                "type": "string",
+                "example": "Unit 500"
+              }
+            }
           },
           "city": {
             "type": "string",
