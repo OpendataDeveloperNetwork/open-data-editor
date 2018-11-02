@@ -142,24 +142,6 @@
         }
       }
     },
-    "geometry": {
-      "type": {
-        "type": "String",
-        "example": "Point",
-        "description": "This indicates that the station is geologically a Point. It can be Point, LineString, MultiLineString"
-      },
-      "coordinates": {
-        "items": {
-          "type": "float",
-          "example": 49.222
-        },
-        "type": "array",
-        "example": [
-          49.222,
-          -122.222
-        ]
-      }
-    },
     "required": [
       "titleOfWork",
       "latitude",
