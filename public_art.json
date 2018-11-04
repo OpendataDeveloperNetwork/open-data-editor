@@ -138,6 +138,10 @@
             "description": "The URL for the artist's website.",
             "type": "string",
             "format": "uri-reference"
+          },
+          "bio": {
+            "description": "This artist's bio.",
+            "type": "string"
           }
         }
       }
