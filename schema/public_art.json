@@ -64,10 +64,6 @@
             "type": "string",
             "format": "date-time"
           },
-          "description": {
-            "type": "string",
-            "example": "\"Puzzled,\" (2013) by artist Steve Hornung brightens the side of an otherwise drab pump house. The mural features a boy with a slingshot, three moose, and interlocking puzzle pieces."
-          },
           "status": {
             "description": "Status of the public art piece",
             "type": "string",
