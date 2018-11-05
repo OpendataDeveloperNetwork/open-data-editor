@@ -5,6 +5,26 @@
   "type": "array",
   "items": {
     "type": "object",
+    "geometry": {
+      "type": {
+        "type": "String",
+        "example": "LineString",
+        "description": "This indicates that the public art is located at a geological point. It can be Point, LineString, MultiLineString"
+      },
+      "coordinates": {
+        "items": {
+          "type": "float",
+          "example": 49.222
+        },
+        "type": "array",
+        "example": [
+          [
+            49.222,
+            -122.222
+          ]
+        ]
+      }
+    },
     "properties": {
       "titleOfWork": {
         "type": "string",
